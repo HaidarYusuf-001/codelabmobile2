@@ -13,7 +13,6 @@ class HttpController extends GetxController {
     super.onInit();
   }
 
-  // https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=d6da786eebd84ef281077ad9f94c19f1
 
   Future<void> fetchArticles() async {
     try {
